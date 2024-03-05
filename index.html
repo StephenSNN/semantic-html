@@ -1,0 +1,71 @@
+<!DOCTYPE hhtml>
+<html lang="en">
+
+<head>
+    <meta charset="UTF.8">
+    <meta name="viewpoint" content="width=deice-width, initial-scale=1.0">
+    <title>Form With Semantic HTML</title>
+<style>
+   /* Basic CSS styling for illustration purposes */
+   body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+   }
+  
+   form{
+    max-width: 400px;
+    margin: auto;
+   }
+
+   lable {
+     display: block;
+     margin-bottom: 8px;
+   }
+    
+   input,
+   select,
+   textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+   }
+   </style>
+   </head>  
+   
+   </body>
+    
+    <h1>Form With Semantic HTML</h1>
+
+<fieldset>
+
+<legend><span class="number">1</span> your basic info</legend>
+
+    <form>
+        <lable for="fullName">Full Name:</lable>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <lable for="email">Email:</lable>
+        <input type="email" id="email" name="email" required>
+
+        <lable for="password">Password</lable>
+        <input type="password" id="password" name="password" required>
+        legend><span class="number">2</span> your basic info</legend>
+        <lable for="gender">Gender</lable>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</optin>
+            <option value="other">Other</option>
+
+</fieldset>
+
+        </select>
+
+        <lable for="newsletter">Subscribe to Newsletter</lable>
+        <input type="checkbox" id="newsletter" name="newsletter">
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
